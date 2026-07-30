@@ -1,0 +1,15 @@
+# Kernbibliotheek voor het downloaden/converteren van YouTube-content.
+# Actief onderhouden, open-source (Unlicense).
+yt-dlp>=2024.1.0
+
+# Moderne GUI-toolkit bovenop tkinter.
+customtkinter>=5.2.0
+
+# Optioneel: sleep-en-neerzet-ondersteuning voor .txt-bestanden.
+# Als dit pakket niet geïnstalleerd is, valt de app terug op de
+# "Bestand openen"-knop; drag & drop is dan simpelweg uitgeschakeld.
+tkinterdnd2>=0.3.0
+
+# Let op: FFmpeg zelf is GEEN Python-pakket en moet apart worden
+# geïnstalleerd (zie README.md) — nodig voor MP3-conversie en het
+# samenvoegen van video/audio tot MP4.
